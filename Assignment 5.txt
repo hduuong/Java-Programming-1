@@ -1,0 +1,23 @@
+Duong H Chau
+CSC 142
+Assignment 5 : Report (challenge)
+5/6/2012
+
+How did you approach (get started with) this assignment?
+
+  i read through the intruction and started writing step by step.
+
+What works and what doesn't work?
+
+  everything works fine in this program.
+
+What problems did you encounter as you worked on this assignment?
+
+  My calculation of the triangle(any) is not very acurracy, because when after calculated the height
+  of the triangle, it got past the MyShape and converted into integer.
+
+What did you learn from this assignment? What would you do differently next time?
+
+  I learnt to overide methods and extend one class to another
+  I think i did a good job on this assignment. I would just keep up doing the same thing on
+  my next assignment.

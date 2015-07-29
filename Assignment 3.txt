@@ -1,0 +1,35 @@
+Duong H Chau
+CSC 142
+Assignment 3 : Report
+4/17/12
+How did you approach (get started with) this assignment?
+  
+  i read through the intruction and started writing step by step.
+
+What works and what doesn't work?
+
+  the methods that draw a normal board and colored board work well.
+  it takes a while to figure out how to draw line with thickness since there're no setSize or whatsoever
+
+What problems did you encounter as you worked on this assignment?
+
+  I had a hard time to think how to draw line with thickness and how to rotate.
+
+What did you learn from this assignment? What would you do differently next time?
+  
+  I learn how to write mothods that use params passed down to complete a task(s).
+  I learn to get used to field and constructor
+  I would think of other ways to approach the problem rather than just think of one that takes
+  me a lot of time.
+
+explain why the NsccWindow reference should be a field while the NsccLine reference(s) should not
+
+  because NsccWindow need to be shared in between methods, while NsccLine is different in every
+  method. NsccLine is not consitant throughout the program.
+
+explain the rationale for making the NsccWindow field private, rather than public.
+
+  because it needs protecion from others who are not the programmer. When a field is private,
+  the caller cannot get inappropriate direct access to the field. field contains variables that
+  are shared to different methods, so must prevent callers to make any changes.
+  

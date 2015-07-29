@@ -1,0 +1,53 @@
+public class ScannerLab {
+   
+   private java.util.Scanner scan;
+   public ScannerLab (){
+     scan = new java.util.Scanner(System.in);
+   }
+   
+   public void echoStrings() {
+      String word;
+      for(int i = 0; i < 5; i ++) {
+         System.out.print("Enter word " + i + ": ");
+         word = scan.next();
+         System.out.println("You entered " + word);
+      }
+   }
+   
+   public void echoIntsAndTotal() {
+      int inputValue;
+      String invalidValue;
+      int total = 0;
+      for(int i = 0; i < 5; i ++) {
+         System.out.println("Enter integer value " + i + ": ");
+         // updated
+         if (scan.hasNextInt()){
+           inputValue = scan.nextInt();
+           System.out.println("You entered " + inputValue);
+           total += inputValue;
+         }else {
+           invalidValue = scan.next();
+           System.out.println("You entered a non-integer. Using -99 instead");
+           total += -99;
+           }
+      }
+      
+      System.out.println("The total of your values is " + total);
+   }
+   
+   public void echoDoublesAndAverage() {
+      double inputValue;
+      for(int i = 0; i < 5; i ++) {
+         System.out.println("Enter double value " + i + ": ");
+      }
+   }
+   
+   public static void main(String[] args) {
+      ScannerLab lab;
+      lab = new ScannerLab();
+//      lab.echoStrings();
+      lab.echoIntsAndTotal();
+//      lab.echoDoublesAndAverage();
+   }
+   
+}

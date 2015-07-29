@@ -1,0 +1,50 @@
+/**
+ * 
+ * 
+ * 
+ * 
+ */
+
+public class Addition{ 
+ 
+  public static void main(String[] args){
+    int sum = 0;
+    int count = 0;
+    String string = "";
+    String unwanted = "";
+    String first = "";
+    String[] list = new String[args.length];
+    
+    if (args.length == 0) System.out.println("There is no input");
+    
+    for (int i = 0; i < args.length; i++){
+      String check = args[i];
+      char character = check.charAt(0);
+      if (Character.isDigit(character) == true){
+        int a = Integer.parseInt(check);
+        sum += a;
+        list[i] = check;
+      } else {
+        unwanted += check + " ";
+      }
+    }
+    for (int i = 0; i < list.length; i++){
+      if (list[i] != null) {
+        first = list[i];
+        break;
+      }
+    }
+    string += first;
+    for (int i = 0; i < list.length; i++){
+      if (list[i] != null & list[i] != first) string += " + " + list[i];
+    }
+    
+    string += " = " + sum;
+    System.out.println(string);
+    System.out.println("Ignored arguments: " + unwanted);
+  }
+}
+
+
+
+

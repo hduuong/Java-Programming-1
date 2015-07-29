@@ -1,0 +1,32 @@
+Duong H Chau
+CSC 142
+Assignment 7 : Report 
+28/6/2012
+
+how did you go about starting this project?
+
+  I start with write up the minimal version and then think of how to check the input is a valid
+  integer. Later then I just go with whatever seems logical in my mind.
+
+what works and what doesn’t?
+
+  At first I try to have a test case with a number and a word stick together like "1plus"
+  but this is not a good test case so I ignore it and everything works fine.
+
+did the test cases help you verify the correctness of your results?
+
+  yes, it helps me to not make up a test case that would make my codes a lot more complicated.
+
+the surprises or problems you encountered while implementing this application
+
+  I had some trouble with displacing the output in a proper order, but I figured out how to fix it
+
+the most important thing(s) you learned from this assignment
+
+  the most important thing that I learnt from this assignment is that I could check if a string 
+  is a integer. I works better with loops.
+
+what you would do differently next time?
+
+  I would not think of the test case that is not make sense
+  and keep up with the good work.

@@ -1,0 +1,46 @@
+Duong H Chau
+CSC 142
+Assignment 4 : Report (challenge version)
+5/6/12
+
+Explain why setLocation "works to expectations" for MyHouse and MyTree with no additional coding
+required. This is shown in the behavior of change2.
+
+  Because the instances are created in a whole, and built within Nscc Components restricted area.
+  so when the setLocation is called, it moves the position of the Nscc Components that contain
+  the houses trees. so there is no need to have any addition coding to setLocation of each part of a house
+
+Explain why setSize does not "work to expectations" for MyHouse and MyTree as inherited from 
+NsccComponent. This is shown in the behavior of change3.
+
+  Because the instances are created in a whole, and built within Nscc Components restricted area.
+  so when the setSize is called, it only changes the sizes of the NScc Components that contain
+  the houses and trees. it won't change the sizes of a house or a tree, it just reduces or expands
+  the NsccComponents.
+
+Explain what specific changes must be made to the MyHouse and MyTree classes to get change3 to 
+work "to specification". This includes a high-level outline for the implementations for any 
+methods that must be modified or added to the classes.
+
+  in order for method change3 to change the sizes of trees and houses. Myhouse and MyTree class
+  need modify that the houses and trees need to be in a same sizes as their component. and set
+  that when the size of the component changes, the sizes of trees and houses change as well.
+
+How did you approach (get started with) this assignment?
+
+  i read through the intruction and started writing step by step.
+
+What works and what doesn't work?
+
+  everything works fine in this program.
+
+What problems did you encounter as you worked on this assignment?
+
+  I tried to rewrite the constructor to create a new house. But first time, there wasn't a door
+  appeared on the screen.
+  I did not know how to make the answer simplier.
+
+What did you learn from this assignment? What would you do differently next time?
+
+  I learnt to overload constructors and call method/constructor from another class.
+  I would 

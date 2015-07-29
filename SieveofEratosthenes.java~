@@ -1,0 +1,30 @@
+
+
+public class SieveofEratosthenes implements Sieve {
+   
+  
+   public java.util.List<Integer> getPrimes(int n){
+     
+     java.util.ArrayList<Integer> primeList = new java.util.ArrayList<Integer>();
+     java.util.ArrayList <Integer> numberList = new java.util.ArrayList<Integer>();
+     
+     for (int i = 2; i <= n; i++){
+       numberList.add(i);
+     }
+//     for (int i = 0; i < primeList.size(); i++){
+//       primeList.remove(i);
+//       i--;
+//     }
+     
+     while(numberList.size() > 0){
+       int currentPrime = numberList.get(0);
+       primeList.add(currentPrime);
+       for (int i = 0; i < numberList.size(); i ++){
+         if(numberList.get(i) % currentPrime == 0) {
+           numberList.remove(i);
+         }
+       }
+     }
+     return primeList;
+   }
+}

@@ -1,0 +1,41 @@
+/**
+ * this class makes loops
+ * 
+ * @author Duong H Chau
+ * @version Lab 6: Loops
+ */ 
+public class Loops {
+  /**
+   * constructor
+   */ 
+  public Loops (){
+    
+    int x = 1;
+    while ( x <= 170) {
+      System.out.print(x);
+      x = x + 13;
+      System.out.println();
+    }
+    
+    for ( int y = 1 ; y <= 170 ; y = y +13) {
+      System.out.print(y);
+      System.out.println();
+    }
+    
+    do{
+      System.out.print(x);
+      System.out.println();
+      x = x + 13;
+    }while(x < 170);
+    
+  }
+  
+  /**
+   * this run the program
+   */ 
+  public static void main(String[] args) {
+   
+    Loops bob;
+    bob = new Loops();
+  }
+}

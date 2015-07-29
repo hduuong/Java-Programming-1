@@ -1,0 +1,32 @@
+Duong H Chau
+CSC 142
+Lab 7: Scanner
+
+1) What is the advantage of declaring scan as a field, rather than a local variable?
+
+  so scan can be used in every method within this class (acts like a global variable).
+
+2) What does this method do if you press the return key multiple times in response to the prompt?
+
+  it creates a new blank blocks for user to enter words in.
+
+3) What does this method do if you enter two-word values, like "peanut butter", "ice cream", "hot dog"?
+
+  it echoes back both words but not at a same time (same line). it considers user enters a 
+  2-words values as enters each word seperately. it echoes 1st word as word 1, and 2nd word as
+  word 2.
+
+4) What does this method do if you enter a sentence, like "the quick brown fox jumps over the lazy dog."?
+
+  it echoes back the first 5 words out of the entire sentence, 1 in each line. The rest are not
+  echoed due to the end of a loop.
+
+5) How does the method handle a real number or a non-numeric value?
+
+  If user inputs the real number, it echoes back that number and store/add up into the total
+  variable. Until finish the loop, it shows the total of the real number inputs.
+  If user inputs a non-numeric value, it shows error messages.
+
+6) How does the method handle integer input?
+
+  It automatically convert Int into a Double.

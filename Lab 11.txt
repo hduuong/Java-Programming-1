@@ -1,0 +1,49 @@
+Duong H Chau
+CSC 142
+Lab 11: Collections
+
+1) 
+
+	private java.util.ArrayList<String> reindeer;
+
+2) 
+
+	public Reindeer (){
+    	  reindeer = new java.util.ArrayList<String>();
+
+3) 
+
+	deer.reindeer = new java.util.LinkedList<String>();
+
+4)
+
+	bases on the outputs from the two list, there is no difference between them.
+
+5) 
+
+	when the second add and print methods are called for the LinkedList, it print a new list
+	with all the names but this time it linked to the previous list of names. SO we have 2 sets
+	of names in the third list.
+
+6) 
+
+	deer.reindeer = new java.util.HashSet<String>();
+
+7)
+
+	yes, the order of names are rearranged in the HASHSET.
+
+8) How does the behavior of the List and Set differ?
+
+	Bases on the outputs, List allows user to add the objects in the order of which the objects
+	are inserted while HashSet does not. Set does not allow dupplicate objects. 
+
+9) Give the new implementation for the print method.
+
+  public void print() {
+    java.util.Iterator<String> it = reindeer.iterator();
+    while(it.hasNext()){
+      System.out.print(it.next() + " ");
+    }
+    System.out.println();
+  }	

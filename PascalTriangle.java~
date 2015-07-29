@@ -1,0 +1,63 @@
+/**
+ * this class draws the pascal triangle
+ * 
+ * @author Duong H Chau
+ * @version Assignment 6: Pascal Triangle
+ */ 
+public class PascalTriangle {
+  int n, k, p, f;
+  /**
+   * This draws the pascal triangle
+   * @param height, the height of the triangle
+   */ 
+  public void drawTriangle(int height){
+    n = height;
+    if (height == 0){
+      n = 1;
+    } else {
+      for (int i = 1; i < height; i ++) {
+        n *= (height-i); 
+      }
+    }
+
+      for (int i = 0; i <= height; i++){
+        k = i;
+        p = (height - i);
+        
+        if ( i < 2 ){
+          k = 1;
+        } else {
+        //calculate the k!
+        for (int l = 1; l < i; l++){          
+          
+            k *= (i-l);
+            
+          }
+          System.out.format("%5d" , k);
+        }
+
+        
+        //calculate the (n-k)!
+        for (int l = 1; l < p; l++){
+          p*= (p-l);
+        }
+        System.out.println(p);
+       
+        //f = n/(k*p);
+        
+
+        
+        }
+      }
+
+  public static void main(String[] args) {
+
+    PascalTriangle pascal = new PascalTriangle();
+
+    pascal.drawTriangle(10);
+    //pascal.drawTriangle(0);
+    //pascal.drawTriangle(3);
+    //pascal.drawTriangle(1);
+
+}
+}

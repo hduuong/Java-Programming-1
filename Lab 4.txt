@@ -1,0 +1,38 @@
+Duong H Chau
+CSC 142
+Lab 4 : Snowman's Hat
+4/26/12
+
+1) However, it would not work if you replaced both of the constructors with the code above. Why?
+
+  Because it will cause 'recursive constructor invocation' error.
+  There will a confusion in calling the method. If replacing both constructors that way, the call
+  statement will cause it to go back and forth between 2 contructors and it will never get to call
+  the buildSnowman method.
+
+2) What happens when you call removeHat?
+
+  the hat disappears from the window.
+
+3) After you call removeHat, what happens if you call moveHatBy?
+
+  notthing happen to the window and an error occurs.
+
+4) What happens if you add two hats? After you have added two hats, can you manipulate (move) them both? Explain why.
+  
+  2 hats appear on the window. And I cannot move them both.
+  Because the 'moveHatBy' method can only change the position of one hat, since the setLocation
+  can only apply to one variable infront of the dot.
+
+5) This new class should be a subclass of NsccComponent. Explain why.
+
+  because this new class need to recieve the necessary properties from NsccComponent class
+  inorder to add new state and behavior to create a new hat.
+
+6) Explain why it is unlikely that you will create your hat with the underlying NsccComponent being too small.
+
+  because the size of the hat is restricted by the size of NsccComponent,
+  if the size of the hat is bigger than the size of NsccComponent, the hat can only be shown
+  as the maximun size of NsccComponent.
+  Usually we make the size of NsccComponent big enough to create a hat in it so that this 
+  wont happen    

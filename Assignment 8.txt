@@ -1,0 +1,31 @@
+Duong H Chau
+CSC 142
+Assignment 8 : Report 
+6/4/2012
+
+how did you go about starting this project?
+
+  I start the assignment after I get the hind through email from Dan
+
+what works and what doesn’t?
+
+  Everything that supposes to work for Standard version works fine.
+  I dont understand what the getsize() method does
+
+did these test cases help you verify the correctness of your results?
+
+  yes it did. It helps me to know what my codes should do.
+
+the surprises or problems you encountered while implementing this application
+
+  the standard version actually easier than i thought. I just need to find the right method to
+  do it. 
+
+the most important thing(s) you learned from this assignment
+
+  the application of drawing a singal letter from a string.
+  and comparing two strings.
+
+what you would do differently next time?
+
+  I would keep up the good works. and apply the things I leant from this assignment

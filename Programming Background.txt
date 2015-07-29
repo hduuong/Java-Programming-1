@@ -1,0 +1,12 @@
+Duong H Chau
+CSC 142
+Programming background
+
+1/ every keyword has its own meaning and cannot be used in any other purpose
+2/ when a variable only appears within a function, that variable is consider a local variable
+3/ a programming uses the while statement when it need to repeat tasks with different given datas
+4/ assignment statement can assign a value, a string, or a list to a variable
+5/ strings, integer
+6/ The program will give an absolute value of the input as the output
+7/ -2
+8/ 14

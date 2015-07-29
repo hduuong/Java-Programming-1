@@ -1,0 +1,49 @@
+Duong H Chau
+CSC 142
+Lab3 : Constructors
+04/19/12
+
+1) Why do the declaration and instantiation need to come first? 
+
+    because in order to use call a method. we must have a variable and its type
+    , also need to instantiate it because with out instantiation, we can't do
+    anything to that varible.
+
+2) One of these four methods must be called first. Which one? 
+
+    the buildSnowman method must be called first.
+
+3) Does the order of the other method calls matter for the appearance of the completed snowman? 
+
+    the order of the other method calls does not matter because each of them does
+    different tasks of making a snowman and they don't overlap.
+
+4) Briefly state why the method you identified in 2) must be called first. 
+
+    the buildSnowman must be called first because this method creates a window
+    for programmers to draw in. Also without the body being drawed first,
+    the others cannot be drawed due to them being the decoration to the body.
+
+5) How does adding this constructor change the behavior of the SnowmanII class? Explain. 
+
+    Adding this constructor makes it does not matter for the main function to call which methods first 
+    or in a certain order. Because the SnowmanII class is now always calls the method(s) 
+    within the contructor first in this case it is the buildSnowman method
+
+6) Does this version of SnowmanII behave any differently than the one you created for question 5? Explain.
+
+    It is different than the last version. This version makes the buildSnowman methods become a
+    constructor, which means this makes all the variable created in that methods becomes 
+    available to be shared to other methods.
+
+7) What would happen if only the return type was removed from the method you identified in question 2? Explain. 
+    
+    When try to run the program after making that change, the compiler would not allow
+    because without the return type the method would not know which kind of information to give
+    back then it's called.
+
+8) What would happen if only the name of the method was changed? Explain.
+    
+    Notthing really will happen. this change basically just rename the name of that mothod
+    The class will compile and run normally as long as the programmer calls the right name
+    of method in the main function.

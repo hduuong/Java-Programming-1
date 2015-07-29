@@ -1,0 +1,34 @@
+/**
+ * This class represents a simply plane geometry triangle.
+ * 
+ * @author Duong H Chau
+ * @version Assignment 5
+ */
+public class MyTriangle extends MyShape {
+  /**
+   * 
+   */ 
+  public MyTriangle(int h, int w) {
+    super(h, w);
+  }
+  /**
+   * 
+   */ 
+  public double getArea() {
+    // calculate the area
+    return (height * width) / 2;
+  }
+  /**
+   * 
+   */ 
+  public double getPerimeter(){
+    double c = Math.sqrt(height*height + width*width);
+    return (height + width + c);
+  }
+  /**
+   * 
+   */
+  public String getName() {
+    return "triangle";
+  }
+}

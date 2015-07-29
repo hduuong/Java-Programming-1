@@ -1,0 +1,27 @@
+Duong H Chau
+CSC 142
+Assignment 10 : Report 
+6/15/2012
+
+how did you go about starting this project?
+
+  as usual, read the intruction in the write-up
+
+what works and what doesn’t?
+
+  everything works fine. I tried the disabled the button but it has wierd things going on when i did
+  that. the button does not show the x or o. after 2 clicks if I do that.
+  
+
+the surprises or problems you encountered while implementing this application
+
+  how easy it is to make the black lines of a tic tac toe board.
+  
+
+the most important thing(s) you learned from this assignment
+
+  to works with JButton and Action performed. this is a pretty cool assignment
+
+what you would do differently next time?
+
+  I would keep up the good work. and use the things I learnt from this assignment for the next one

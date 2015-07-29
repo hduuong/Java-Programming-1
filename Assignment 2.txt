@@ -1,0 +1,25 @@
+Duong H Chau
+CSC 142
+Assignment 2 : Report
+4/17/12
+
+1/ how did you approach this assignment
+I went slowly at first by reading carefully the instruction.
+ Opened up my notes on how to draw the shapes an how to add color
+  copy and paste the header of the program. then I started to write codes
+
+2/ What works and what doesn't work?
+Most of my codes work fine. It does compile so It's a good sign.
+  I could not figure how to make Right Triangle.
+    I could not make the flag of Seychelles to have the black Foreground on the
+    left side and the bottom
+
+3/ What problems did you encounter as you worked on this assignment?
+I offen forget to end the statement with the  ";"
+  
+
+4/What did you learn from this assignment? What would you do differently next time?
+I learn to get used to Java syntax and methods.
+  learn how to make subtances, draw shapes and make colors
+I would copy and paste more often to safe some of the time
+  and do the calculation and comment right after each method.

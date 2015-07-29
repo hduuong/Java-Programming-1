@@ -1,0 +1,34 @@
+Duong H Chau
+CSC 142
+Lab 5: Vertical Alignment
+
+1) How many methods are in VertAlign?
+  
+  there are 7 methods
+
+2) What is the difference between method1 and method2? In functionality? In formatting?
+
+  statements in method1 has indentation while method2 has not.
+  there is no no difference in functionality.
+
+3) What is the difference between method2 and method3? Does this change make a difference in readability?
+
+  the close bracket in methods 3 close at the same line as the last statements.
+  this change actually makes it easier to read since the extra blank lines with only the close
+  bracket on the line.
+ 
+4) What happened when you pressed the tab key with lines 13 - 21 selected?
+
+  it was pushed in in the same order of indentation as method1.
+
+5) See if you can figure out what the editor is using to determine the vertical alignment in the code for method5
+
+  the editor tries to line up the statements. although the statements are broken down in another
+  line, the editor indents the broken statesment to make it still seems continuous with the other
+  half.
+
+6) What's going on around line 56?
+
+  it has the remaining of the return statement of method6, and has only the modifier of 
+  the method k. this line ends one method and starts another one.
+  

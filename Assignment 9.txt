@@ -1,0 +1,36 @@
+Duong H Chau
+CSC 142
+Assignment 9 : Report 
+6/8/2012
+
+how did you go about starting this project?
+
+  as usual, read the intruction in the write-up
+
+what works and what doesn’t?
+
+  everything works fine. But there is a better way to solve one problem that i cuold not figure out
+  nevermind that, i Got it. :D
+
+what are the test cases you created for this assignment?
+
+  for the upper bound 5: I should get the list of prime { 2 , 3 , 5 }
+  for the upper bound 25: I should get the list of prime { 2 , 3 , 5 , 7 , 11 , 13 , 17 , 19 , 23 }
+  for the upper bound 15: I should get the list of prime { 2 , 3 , 5 , 7 , 11 , 13 }
+
+did these test cases help you verify the correctness of your results?
+
+  yes, it did.
+
+the surprises or problems you encountered while implementing this application
+
+  I ran into a problem that the Primelist get bigger everytime I called it.
+  and surprisingly it was really easy to fix it.
+
+the most important thing(s) you learned from this assignment
+
+  if the variable is not needed to be shared, it should not be a field
+
+what you would do differently next time?
+
+  I would keep up the good work. and use the things I learnt from this assignment for the next one

@@ -1,0 +1,29 @@
+Duong H Chau
+CSC 142
+Assignment 5 : Report 
+5/6/2012
+
+how did you go about starting this project?
+
+  I start with finding out how to calculate the factorial of a number and write a method for it
+
+what works and what doesn’t?
+
+  I finish the minimal version but could not know how to format it into a check version
+
+did the test cases help you verify the correctness of your results?
+  
+  yes, it did.
+
+the surprises or problems you encountered while implementing this application
+
+  I don't know how to format each line differently while the lines are made in a loop.
+
+the most important thing(s) you learned from this assignment
+
+  It is hard for me to learn anything new from this assignment since I don't know how to do it
+  But it is helpful when I did the scanner method. It helps me to review that stuffs.
+
+what you would do differently next time?
+
+  I need to be more careful in starting the assignment and making a blueprint for direction.

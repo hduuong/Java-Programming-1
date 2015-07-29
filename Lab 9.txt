@@ -1,0 +1,127 @@
+Duong H Chau
+CSC 142
+Lab 9: Properties
+
+1/ 10 get/set properties from classes in java.awt and/or javax.swing.
+
+package name: java.awt
+class name: Rectangle
+
+	public Color getBackground()
+	public void setBackground(Color c)
+
+	public Color getForeground()
+	public void setForeground(Color c)
+
+package name: java.awt
+class name: Component
+	
+	public Font getFont()
+	public void setFont(Font f)
+
+	public Locale getLocale()
+	public void setLocale(Locale l)
+
+	public Rectangle getBounds()
+	public void setBounds(Rectangle r)
+	
+	public Dimension getPreferredSize()
+	public void setPreferredSize(Dimension preferredSize)
+
+	public Dimension getMinimumSize()
+	public void setMinimumSize(Dimension minimumSize)
+
+	public Dimension getMaximumSize()
+	public void setMaximumSize(Dimension maximumSize)
+
+package name: java.awt
+class name: Graphics2D
+
+	public abstract AffineTransform getTransform()
+	public abstract void setTransform(AffineTransform Tx)
+
+	public abstract Stroke getStroke()
+	public abstract void setStroke(Stroke s)	
+
+2/ 2 multi-valued property sets from classes in java.awt and/or javax.swing.
+package name: java.awt
+class name: Rectangle
+	
+	public int getX()
+	public int getY()
+	public int getWidth()
+	public int getheight()
+	public void setBounds(int x,int y, int width, int height)
+	
+	
+	public int getX()
+	public int getY()
+	public void setLocation(int x, int y)
+	
+how/why the property has multiple pieces though is considered a single property.
+
+	because these pieces add up to define one property. and they don't make sense if one of them
+	stands alone.
+
+3/ 2 read-only properties from classes in java.awt and/or javax.swing.
+package name: java.awt
+Class name: Font
+	
+	public String getFontName()
+
+	public int getStyle()
+
+how/why the property makes sense as being read-only.
+
+	because it is set as default by the program, there is no use in changing it
+	So there is no Set method for this kind of property.
+
+
+4/ boolean properties from classes in java.awt and/or javax.swing.
+package name: java.awt
+class name: Rectangle
+	
+	public boolean isEmpty()
+	
+package name: java.awt
+class name: Window
+
+	public boolean isActive()
+
+5/ 1 write-only property. It can be from any package within the standard Java API.
+
+	public abstract void setCallbackHandler(CallbackHandler handler)
+
+
+6/ Give an example of using each property (the query method) showing how the naming aids readability
+
+get/set : public Color getBackground()
+	  public void setBackground(Color c)
+
+we can use setBackground to set or change the Color of an object.
+use getBackground to check the color of an object that is created by the program or input by the user
+
+multi-valued: public int getX()
+	      public int getY()
+ 	      public void setLocation(int x, int y)
+
+we can sue setLocation to set the position of an object ( how far up/down and how accross )
+use getX() to check the position along the horizontal
+use getY() to check the position along the vertical
+
+
+read only: 
+
+	we can use this kind of method to get the value of a characteristic of an object that is
+	set by default by the program.
+
+
+boolean : 
+
+	we can use this kind of method to varify if it has the characteristic that we want it to
+	be, such as: isdigit() to check if it is a digit. isActive() to check if it is active or not.
+
+write only : 
+
+	we use this property when it makes sense and makes it easier to write, syntax is easy to
+	understand. this is an uncommon property since it can be replace with methods.
